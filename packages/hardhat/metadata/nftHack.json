@@ -1,0 +1,12 @@
+{
+    "name": "VR Concert",
+    "description": "NFT Hack VR Tour, Jan 17 2022, Staples Center, Los Angeles, CA",
+    "image": "https://ipfs.io/ipfs/QmWyh9BZecwoDa845yrJh8mFqvfJV1q8FAT8vjeygXoRrS",
+    "attributes": [
+        {
+            "trait_type": "Preference",
+            "value": 7,
+            "max_value": 10
+        }
+    ]
+}

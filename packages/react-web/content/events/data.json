@@ -1,0 +1,17 @@
+[
+    {
+      "id": "1410474",
+      "type": "concert",
+      "title": "Techno VR Concert",
+      "date": "Jan 17, 08: PM",
+      "organization": "EthGlobal",
+      "location": "Staple Center Los Angeles, CA",
+      "price": "0",
+      "description": "DJ Nestor.",
+      "coverImage": "/event_0.jpg",
+      "link": "/vr-concert",
+      "slug": "vr-concert",
+      "createdAt": ""
+    }
+  ]
+  

@@ -1,0 +1,38 @@
+{
+    "name": "@vrnft/monorepo",
+    "version": "1.0.0",
+    "keywords": [
+      "virtual",
+      "reality",
+      "360",
+      "nft"
+    ],
+    "private": true,
+    "scripts": {
+      "build": "yarn workspace @vrnft/react-web build",
+      "dev": "yarn workspace @vrnft/react-web dev",
+      "compile": "yarn workspace @vrnft/hardhat compile",
+      "deploy": "yarn workspace @vrnft/hardhat deploy",
+      "react-web:test": "yarn workspace @vrnft/react-web test",
+      "prettier": "yarn workspace @vrnft/react-web prettier",
+      "chain": "yarn workspace @vrnft/hardhat chain",
+      "fork": "yarn workspace @vrnft/hardhat fork",
+      "node": "yarn workspace @vrnft/hardhat chain",
+      "test": "yarn workspace @vrnft/hardhat test",
+      "start": "yarn workspace @vrnft/react-web start"
+    },
+    "workspaces": {
+      "packages": [
+        "packages/*"
+      ],
+      "nohoist": [
+        "**/hardhat",
+        "**/hardhat/**",
+        "**/hardhat-ts",
+        "**/hardhat-ts/**"
+      ]
+    },
+    "dependencies": {},
+    "devDependencies": { }
+  }
+  
